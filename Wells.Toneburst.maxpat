@@ -23,11 +23,11 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "tremeloTown.maxpat",
-                    "numinlets": 1,
+                    "numinlets": 2,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 20.0, 390.65420258045197, 472.0, 351.41026359796524 ],
+                    "patching_rect": [ 27.0, 378.0, 472.0, 351.41026359796524 ],
                     "viewvisibility": 1
                 }
             },
@@ -186,7 +186,7 @@
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 407.0, 108.0, 618.0, 262.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 407.0, 108.0, 618.0, 262.0 ],
+                    "presentation_rect": [ 415.0, 95.0, 618.0, 262.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -214,13 +214,20 @@
             {
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
-                    "midpoints": [ 29.5, 753.0, 511.626608178718, 753.0, 511.626608178718, 393.4645163223613, 550.6214911341667, 393.4645163223613 ],
+                    "midpoints": [ 36.5, 753.0, 511.626608178718, 753.0, 511.626608178718, 393.4645163223613, 550.6214911341667, 393.4645163223613 ],
                     "source": [ "obj-101", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
+                    "order": 2,
+                    "source": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-101", 1 ],
                     "order": 1,
                     "source": [ "obj-12", 0 ]
                 }
@@ -279,14 +286,6 @@
             "obj-5::obj-83": [ "live.numbox", "live.numbox", 0 ],
             "obj-5::obj-85": [ "live.numbox[1]", "live.numbox", 0 ],
             "obj-9": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-5::obj-2": {
                     "parameter_longname": "live.text[3]"

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 175.0, 200.0, 1375.0, 651.0 ],
+        "rect": [ 256.0, 330.0, 1375.0, 651.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1383,6 +1383,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-223", 0 ],
+                    "order": 1,
+                    "source": [ "obj-51", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-43", 0 ],
+                    "order": 0,
                     "source": [ "obj-51", 2 ]
                 }
             },
@@ -1581,6 +1589,14 @@
         "parameters": {
             "obj-33": [ "live.button[1]", "live.button", 0 ],
             "obj-43": [ "live.tab", "live.tab", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
