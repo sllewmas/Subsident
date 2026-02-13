@@ -90,7 +90,7 @@
                     "patching_rect": [ 20.0, 48.0, 343.0, 29.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.0, 48.0, 343.0, 29.0 ],
-                    "text": "version 260213a"
+                    "text": "version 260213b"
                 }
             },
             {
