@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 232.0, 87.0, 1151.0, 668.0 ],
+        "rect": [ 134.0, 178.0, 1151.0, 668.0 ],
         "boxes": [
             {
                 "box": {
@@ -44,7 +44,7 @@
                     "patching_rect": [ 985.0, 962.0, 370.0, 88.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 902.0, 130.0, 230.0, 88.0 ],
-                    "text": "01:33"
+                    "text": "00:00"
                 }
             },
             {
@@ -479,7 +479,7 @@
                     "patching_rect": [ 226.00000673532486, 33.0, 113.33333671092987, 21.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.0, 48.0, 231.0, 21.0 ],
-                    "text": "version 260309a",
+                    "text": "version 260309b",
                     "textjustification": 2
                 }
             },
@@ -831,6 +831,14 @@
             "obj-5::obj-85": [ "live.numbox[1]", "live.numbox", 0 ],
             "obj-7::obj-33": [ "live.button[2]", "live.button", 0 ],
             "obj-9": [ "live.gain~", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-101::obj-16": {
                     "parameter_longname": "live.text[4]"
