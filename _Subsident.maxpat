@@ -120,8 +120,8 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 4.0, 465.0, 70.0, 22.0 ],
-                    "text": "cpPan~ 0.5"
+                    "patching_rect": [ 4.0, 465.0, 88.0, 22.0 ],
+                    "text": "nw.cpPan~ 0.5"
                 }
             },
             {
@@ -131,8 +131,8 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 80.0, 465.0, 76.0, 22.0 ],
-                    "text": "cpPan~ 0.85"
+                    "patching_rect": [ 101.0, 465.0, 94.0, 22.0 ],
+                    "text": "nw.cpPan~ 0.85"
                 }
             },
             {
@@ -479,7 +479,7 @@
                     "patching_rect": [ 226.00000673532486, 33.0, 113.33333671092987, 21.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.0, 48.0, 231.0, 21.0 ],
-                    "text": "version 260309b",
+                    "text": "version 260309c",
                     "textjustification": 2
                 }
             },
