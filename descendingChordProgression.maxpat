@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 529.0, 87.0, 878.0, 607.0 ],
+        "rect": [ 134.0, 178.0, 878.0, 607.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -78,7 +78,6 @@
                             {
                                 "box": {
                                     "id": "obj-10",
-                                    "linecount": 3,
                                     "maxclass": "newobj",
                                     "numinlets": 0,
                                     "numoutlets": 1,
@@ -283,7 +282,7 @@
                 "box": {
                     "comment": "Freeze/Unfreeze (1/0)",
                     "id": "obj-4",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -503,7 +502,7 @@
                 "box": {
                     "comment": "Filter Mod (0-127)",
                     "id": "obj-33",
-                    "index": 4,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -826,7 +825,7 @@
                 "box": {
                     "comment": "Timbre Mod (0-127)",
                     "id": "obj-1",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -900,7 +899,6 @@
                             {
                                 "box": {
                                     "id": "obj-160",
-                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -2182,7 +2180,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-202",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2243,7 +2241,7 @@
                 "box": {
                     "comment": "Chord Trigger (bang)",
                     "id": "obj-199",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2255,7 +2253,7 @@
                 "box": {
                     "comment": "Reset (bang)",
                     "id": "obj-198",
-                    "index": 5,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2333,7 +2331,7 @@
                     "presentation": 1,
                     "presentation_rect": [ 6.000000178813934, 72.6666688323021, 287.166670948267, 131.0 ],
                     "text": "1",
-                    "textcolor": [ 0.8068389541858965, 0.1830241529417127, 0.6232841963957887, 0.75 ],
+                    "textcolor": [ 0.3162321336665459, 0.5759101760974898, 0.31831196077460744, 0.75 ],
                     "textjustification": 1
                 }
             },
@@ -2607,7 +2605,19 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 650.0, 112.0, 810.0, 1063.0 ],
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-25",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 544.0, 567.0, 31.0, 22.0 ],
+                                    "text": "stop"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-10",
@@ -3508,6 +3518,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-113", 0 ],
+                                    "order": 0,
                                     "source": [ "obj-125", 3 ]
                                 }
                             },
@@ -3521,6 +3532,13 @@
                                 "patchline": {
                                     "destination": [ "obj-18", 0 ],
                                     "source": [ "obj-125", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-25", 0 ],
+                                    "order": 1,
+                                    "source": [ "obj-125", 3 ]
                                 }
                             },
                             {
@@ -3602,6 +3620,12 @@
                                 "patchline": {
                                     "destination": [ "obj-87", 0 ],
                                     "source": [ "obj-24", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-23", 0 ],
+                                    "source": [ "obj-25", 0 ]
                                 }
                             },
                             {
@@ -4346,6 +4370,27 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ]
+        ],
+        "parameters": {
+            "obj-134": [ "slider", "slider", 0 ],
+            "obj-195": [ "live.text[1]", "live.text[1]", 0 ],
+            "obj-196": [ "live.numbox[2]", "live.numbox", 0 ],
+            "obj-2": [ "live.text[3]", "live.text", 0 ],
+            "obj-200": [ "live.numbox[3]", "live.numbox", 0 ],
+            "obj-201": [ "live.numbox[4]", "live.numbox", 0 ],
+            "obj-23": [ "slider[1]", "slider", 0 ],
+            "obj-83": [ "live.numbox", "live.numbox", 0 ],
+            "obj-85": [ "live.numbox[1]", "live.numbox", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
     }
 }

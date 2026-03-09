@@ -510,8 +510,8 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 75.0, 358.0, 105.0, 22.0 ],
-                    "text": "trapezoid~ 0.1 0.2"
+                    "patching_rect": [ 75.0, 358.0, 112.0, 22.0 ],
+                    "text": "trapezoid~ 0.01 0.2"
                 }
             },
             {
