@@ -1,0 +1,29 @@
+{
+  "rehearsalLetter": {
+    "0": { "letter": "A", "sineChords": 0, "dyad": 0, "fieldRecording": 1 },
+    "1": { "letter": "B", "sineChords": 1, "dyad": 0, "fieldRecording": 0 },
+    "2": { "letter": "C", "sineChords": 2, "dyad": 0, "fieldRecording": 0 },
+    "3": { "letter": "D", "sineChords": 3, "dyad": 0, "fieldRecording": 0 },
+    "4": { "letter": "E", "sineChords": 0, "dyad": 0, "fieldRecording": 0 },
+    "5": { "letter": "F", "sineChords": 4, "dyad": 0, "fieldRecording": 0 },
+    "6": { "letter": "G", "sineChords": 5, "dyad": 0, "fieldRecording": 0 },
+    "7": { "letter": "H", "sineChords": 6, "dyad": 0, "fieldRecording": 0 },
+    "8": { "letter": "I", "sineChords": 7, "dyad": 0, "fieldRecording": 0 },
+    "9": { "letter": "J", "sineChords": 8, "dyad": 0, "fieldRecording": 0 },
+    "10": { "letter": "K", "sineChords": 9, "dyad": 0, "fieldRecording": 0 },
+    "11": { "letter": "L", "sineChords": 10, "dyad": 1, "fieldRecording": 0 },
+    "12": { "letter": "M", "sineChords": 0, "dyad": 2, "fieldRecording": 0 },
+    "13": { "letter": "N", "sineChords": 0, "dyad": 3, "fieldRecording": 0 },
+    "14": { "letter": "O", "sineChords": 0, "dyad": 4, "fieldRecording": 0 },
+    "15": { "letter": "P", "sineChords": 0, "dyad": 5, "fieldRecording": 0 },
+    "16": { "letter": "Q", "sineChords": 0, "dyad": 6, "fieldRecording": 0 },
+    "17": { "letter": "R", "sineChords": 0, "dyad": 16, "fieldRecording": 0 },
+    "18": { "letter": "S", "sineChords": 0, "dyad": 17, "fieldRecording": 0 },
+    "19": { "letter": "T", "sineChords": 0, "dyad": 29, "fieldRecording": 0 },
+    "20": { "letter": "U", "sineChords": 0, "dyad": 47, "fieldRecording": 0 },
+    "21": { "letter": "V", "sineChords": 0, "dyad": 71, "fieldRecording": 0 },
+    "22": { "letter": "W", "sineChords": 0, "dyad": 92, "fieldRecording": 0 },
+    "23": { "letter": "X", "sineChords": 0, "dyad": 107, "fieldRecording": 0 },
+    "24": { "letter": "Y", "sineChords": 0, "dyad": 116, "fieldRecording": 0 }
+  }
+}
