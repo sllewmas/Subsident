@@ -452,7 +452,7 @@
                     "patching_rect": [ 1165.6000173687935, 1507.2000224590302, 370.0, 88.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 908.0, 186.0, 230.0, 88.0 ],
-                    "text": "02:20"
+                    "text": "00:00"
                 }
             },
             {
@@ -877,7 +877,7 @@
                     "patching_rect": [ 226.00000673532486, 33.0, 113.33333671092987, 21.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 20.000000715255737, 48.0, 175.789479970932, 21.0 ],
-                    "text": "version 1.0",
+                    "text": "version 1.0.1",
                     "textjustification": 2
                 }
             },
@@ -1501,14 +1501,6 @@
             "obj-7::obj-17": [ "live.numbox[6]", "live.numbox", 0 ],
             "obj-7::obj-33": [ "live.button[2]", "live.button", 0 ],
             "obj-9": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-101::obj-16": {
                     "parameter_longname": "live.text[4]"
