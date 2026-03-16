@@ -556,7 +556,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 45.0, 390.0, 53.0, 20.0 ],
-                    "text": "-30 DB"
+                    "text": "-18 DB"
                 }
             },
             {
@@ -567,7 +567,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 24.0, 361.0, 74.0, 22.0 ],
-                    "text": "*~ 0.031623"
+                    "text": "*~ 0.126492"
                 }
             },
             {
