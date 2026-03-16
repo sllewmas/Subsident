@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1360.0, 243.0, 944.0, 1097.0 ],
+        "rect": [ 1078.0, 198.0, 944.0, 1097.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -556,6 +556,14 @@
         ],
         "parameters": {
             "obj-33": [ "live.button[1]", "live.button", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,

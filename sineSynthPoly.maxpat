@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 785.0, 271.0, 1075.0, 882.0 ],
+        "rect": [ 25.0, 290.0, 1075.0, 882.0 ],
         "boxes": [
             {
                 "box": {
@@ -556,7 +556,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 45.0, 390.0, 53.0, 20.0 ],
-                    "text": "-18 DB"
+                    "text": "-22 DB"
                 }
             },
             {
@@ -567,7 +567,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 24.0, 361.0, 74.0, 22.0 ],
-                    "text": "*~ 0.126492"
+                    "text": "*~ 0.079433"
                 }
             },
             {
@@ -688,6 +688,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 448.0, 390.0, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "in 2"
                 }
             },
@@ -775,6 +779,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 24.0, 571.0, 42.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out~ 1"
                 }
             },
@@ -786,6 +794,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 127.0, 12.0, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "in 1"
                 }
             }
