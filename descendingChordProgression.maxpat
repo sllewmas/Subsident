@@ -57,17 +57,6 @@
             },
             {
                 "box": {
-                    "id": "obj-25",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "float" ],
-                    "patching_rect": [ 189.0, 35.333333760499954, 29.5, 22.0 ],
-                    "text": "!- 1."
-                }
-            },
-            {
-                "box": {
                     "id": "obj-10",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1683,7 +1672,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.2427181005478, 241.7475695014, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 35.749861358417505, 163.27977723819035, 95.0, 25.0 ],
+                    "presentation_rect": [ 72.65441852240228, 118.71728296653521, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1703,7 +1692,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.5425813933171427, 0.1720650942959055, 0.491537854022811, 0.75 ],
+                    "textcolor": [ 0.40751869976397165, 0.37853104426208695, 0.4629690299279132, 0.75 ],
                     "varname": "live.numbox[2]"
                 }
             },
@@ -1721,7 +1710,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1404.0, 338.0, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 20.738052014524698, 119.81947367846709, 95.0, 25.0 ],
+                    "presentation_rect": [ 49.03771898259868, 149.63336029590826, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1741,7 +1730,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.3964002359400411, 0.49930166342645677, 0.7501777411563382, 0.75 ],
+                    "textcolor": [ 0.706944317427282, 0.5179564058429278, 0.3755159893107977, 0.75 ],
                     "varname": "live.numbox[1]"
                 }
             },
@@ -1759,7 +1748,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1345.0, 338.0, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 44.58095304842298, 156.63733821763634, 95.0, 25.0 ],
+                    "presentation_rect": [ 85.5560563297807, 110.1685370994987, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1779,7 +1768,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.7228072136458239, 0.7227918722392264, 0.3137234691392809, 0.75 ],
+                    "textcolor": [ 0.4971912247672377, 0.3261790996384535, 0.3074637078868591, 0.75 ],
                     "varname": "live.numbox"
                 }
             },
@@ -4118,7 +4107,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 478.7572764158249, 226.21358913183212, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 53.66212025597984, 105.57384593525452, 95.0, 25.0 ],
+                    "presentation_rect": [ 24.590824706619117, 86.06226255619875, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -4138,7 +4127,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.2486613472975749, 0.4440136287645437, 0.5897004161823998, 0.75 ],
+                    "textcolor": [ 0.5563111608658643, 0.3994418271652755, 0.5066222320655651, 0.75 ],
                     "varname": "live.numbox[4]"
                 }
             },
@@ -4156,7 +4145,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 453.5145583152771, 257.28154987096786, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 71.80154112875857, 112.96700335617285, 95.0, 25.0 ],
+                    "presentation_rect": [ 46.82440526869769, 111.82807462991424, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -4176,7 +4165,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.37024000254521927, 0.6458288306883759, 0.8701021441840843, 0.75 ],
+                    "textcolor": [ 0.37089347297511543, 0.6844025183505196, 0.6505566866306691, 0.75 ],
                     "varname": "live.numbox[3]"
                 }
             },
@@ -4643,7 +4632,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "float" ],
+                                    "outlettype": [ "int" ],
                                     "patching_rect": [ 627.0, 1113.0, 30.0, 30.0 ]
                                 }
                             },
@@ -6303,7 +6292,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-25", 0 ],
+                    "destination": [ "obj-80", 1 ],
                     "source": [ "obj-10", 0 ]
                 }
             },
@@ -6477,12 +6466,6 @@
                 "patchline": {
                     "destination": [ "obj-84", 0 ],
                     "source": [ "obj-24", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-80", 1 ],
-                    "source": [ "obj-25", 0 ]
                 }
             },
             {
@@ -6677,6 +6660,14 @@
             "obj-83": [ "live.numbox", "live.numbox", 0 ],
             "obj-85": [ "live.numbox[1]", "live.numbox", 0 ],
             "obj-9": [ "live.numbox[5]", "live.numbox[5]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
