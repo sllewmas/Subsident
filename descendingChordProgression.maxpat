@@ -1672,7 +1672,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.2427181005478, 241.7475695014, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 72.65441852240228, 118.71728296653521, 95.0, 25.0 ],
+                    "presentation_rect": [ 80.06764351127701, 106.2981935855994, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1692,7 +1692,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.40751869976397165, 0.37853104426208695, 0.4629690299279132, 0.75 ],
+                    "textcolor": [ 0.5377115854418275, 0.39306238159955875, 0.3325790683826362, 0.75 ],
                     "varname": "live.numbox[2]"
                 }
             },
@@ -1710,7 +1710,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1404.0, 338.0, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 49.03771898259868, 149.63336029590826, 95.0, 25.0 ],
+                    "presentation_rect": [ 39.48900391649425, 170.0728770728352, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1730,7 +1730,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.706944317427282, 0.5179564058429278, 0.3755159893107977, 0.75 ],
+                    "textcolor": [ 0.31206738259036526, 0.4323711944956858, 0.4529606631156736, 0.75 ],
                     "varname": "live.numbox[1]"
                 }
             },
@@ -1748,7 +1748,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1345.0, 338.0, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 85.5560563297807, 110.1685370994987, 95.0, 25.0 ],
+                    "presentation_rect": [ 21.854472425064536, 100.49988097197974, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1768,7 +1768,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.4971912247672377, 0.3261790996384535, 0.3074637078868591, 0.75 ],
+                    "textcolor": [ 0.8279139860114964, 0.7889402918819046, 0.40395184046084254, 0.75 ],
                     "varname": "live.numbox"
                 }
             },
@@ -4107,7 +4107,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 478.7572764158249, 226.21358913183212, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 24.590824706619117, 86.06226255619875, 95.0, 25.0 ],
+                    "presentation_rect": [ 46.90390997752014, 149.75798965499294, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -4127,7 +4127,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.5563111608658643, 0.3994418271652755, 0.5066222320655651, 0.75 ],
+                    "textcolor": [ 0.6544331595060927, 0.9416009739655107, 0.27987145052768436, 0.75 ],
                     "varname": "live.numbox[4]"
                 }
             },
@@ -4145,7 +4145,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 453.5145583152771, 257.28154987096786, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 46.82440526869769, 111.82807462991424, 95.0, 25.0 ],
+                    "presentation_rect": [ 45.641139052298996, 143.33673707814057, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -4165,7 +4165,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.37089347297511543, 0.6844025183505196, 0.6505566866306691, 0.75 ],
+                    "textcolor": [ 0.384142408358503, 0.018710602609747273, 0.5252153149084242, 0.75 ],
                     "varname": "live.numbox[3]"
                 }
             },
@@ -4434,6 +4434,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 291.0, 141.0, 1022.0, 1126.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -4585,13 +4586,13 @@
                                     "numinlets": 2,
                                     "numoutlets": 5,
                                     "outlettype": [ "dictionary", "", "", "", "" ],
-                                    "patching_rect": [ 441.5, 962.0, 61.0, 22.0 ],
+                                    "patching_rect": [ 441.5, 962.0, 79.0, 22.0 ],
                                     "saved_object_attributes": {
                                         "legacy": 0,
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0
                                     },
-                                    "text": "dict"
+                                    "text": "dict @quiet 1"
                                 }
                             },
                             {
@@ -6660,14 +6661,6 @@
             "obj-83": [ "live.numbox", "live.numbox", 0 ],
             "obj-85": [ "live.numbox[1]", "live.numbox", 0 ],
             "obj-9": [ "live.numbox[5]", "live.numbox[5]", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
