@@ -86,7 +86,7 @@
       "startTime": 213,
       "dur": 38,
       "tremDepth": 0,
-      "instructions": ["coalescing"]
+      "instructions": ["coalescing", "Play sine synth", "building density"]
     },
     "8": {
       "letter": "I",
@@ -96,7 +96,7 @@
       "startTime": 250,
       "dur": 38,
       "tremDepth": 0,
-      "instructions": ["precipiating"]
+      "instructions": ["precipiating", "Play sine synth", "dense and full"]
     },
     "9": {
       "letter": "J",
@@ -106,7 +106,7 @@
       "startTime": 288,
       "dur": 19,
       "tremDepth": 0,
-      "instructions": ["infiltrating", "More sparse"]
+      "instructions": ["infiltrating", "Play sine synth", "suddenly sparse"]
     },
     "10": {
       "letter": "K",
@@ -116,7 +116,7 @@
       "startTime": 306,
       "dur": 38,
       "tremDepth": 0,
-      "instructions": ["infiltrating", "Very sparse"]
+      "instructions": ["infiltrating", "Play sine synth", "growing density"]
     },
     "11": {
       "letter": "L",
@@ -128,7 +128,8 @@
       "tremDepth": 0,
       "instructions": [
         "plenishing",
-        "Sine synth sparse and increase Timbre slider (0 to 100%)"
+        "Play sine synth & increase Timbre slider (0 to 100%)",
+        "dense to sparse"
       ]
     },
     "12": {
@@ -139,7 +140,7 @@
       "startTime": 381,
       "dur": 13,
       "tremDepth": 0,
-      "instructions": ["plenishing", "Decrease Timbre slider (100 to 0%)"]
+      "instructions": ["plenishing", "Timbre slider", "decrease 100 to 0%"]
     },
     "13": {
       "letter": "N",
@@ -149,7 +150,7 @@
       "startTime": 394,
       "dur": 6,
       "tremDepth": 10,
-      "instructions": ["extracting", "Slight timbre swell to Q"]
+      "instructions": ["extracting", "Timbre slider", "Slight swell to O"]
     },
     "14": {
       "letter": "O",
@@ -159,7 +160,7 @@
       "startTime": 400,
       "dur": 1,
       "tremDepth": 10,
-      "instructions": ["extracting", ""]
+      "instructions": ["extracting", "Tremelo", "Begin to flucuate "]
     },
     "15": {
       "letter": "P",
@@ -169,7 +170,7 @@
       "startTime": 401,
       "dur": 6,
       "tremDepth": 20,
-      "instructions": ["extracting", ""]
+      "instructions": ["extracting", "Tremelo", "increasing flucuations"]
     },
     "16": {
       "letter": "Q",
@@ -179,7 +180,7 @@
       "startTime": 408,
       "dur": 19,
       "tremDepth": 30,
-      "instructions": ["extracting", "Free timbre swells"]
+      "instructions": ["extracting", "Free timbre swells", "flucuating tremelo"]
     },
     "17": {
       "letter": "R",
@@ -199,7 +200,11 @@
       "startTime": 439,
       "dur": 19,
       "tremDepth": 50,
-      "instructions": ["extracting", "Freeze/unfreeze, free timbre swells"]
+      "instructions": [
+        "extracting",
+        "ad lib Freeze & Timbre",
+        "flucuating tremelo"
+      ]
     },
     "19": {
       "letter": "T",
@@ -209,10 +214,7 @@
       "startTime": 458,
       "dur": 19,
       "tremDepth": 60,
-      "instructions": [
-        "extracting",
-        "Unfreeze increase Timbre slider (0 to 100%)"
-      ]
+      "instructions": ["extracting", "Unfreeze & Timbre slider", "0 to 100%"]
     },
     "20": {
       "letter": "U",
@@ -232,7 +234,11 @@
       "startTime": 495,
       "dur": 19,
       "tremDepth": 80,
-      "instructions": ["extracting", "Freeze/unfreeze, free timbre swells"]
+      "instructions": [
+        "extracting",
+        "ad lib freeze and timbre",
+        "choppier tremelo"
+      ]
     },
     "22": {
       "letter": "W",
@@ -242,7 +248,11 @@
       "startTime": 514,
       "dur": 19,
       "tremDepth": 90,
-      "instructions": ["evaporating", "Unfreeze, free timbre swells"]
+      "instructions": [
+        "evaporating",
+        "Unfreeze & free timbre swells",
+        "choppy tremelo"
+      ]
     },
     "23": {
       "letter": "X",
@@ -252,7 +262,7 @@
       "startTime": 533,
       "dur": 19,
       "tremDepth": 100,
-      "instructions": ["evaporating", "Timbre 0%, unfreeze"]
+      "instructions": ["evaporating", "Timbre 0%, unfreeze", "choppy tremelo"]
     },
     "24": {
       "letter": "Y",
@@ -262,7 +272,7 @@
       "startTime": 551,
       "dur": 38,
       "tremDepth": 100,
-      "instructions": ["subsiding", "Filter slider 100 to 0%"]
+      "instructions": ["subsiding", "Filter slider 100 to 0%", "choppy tremelo"]
     }
   }
 }
