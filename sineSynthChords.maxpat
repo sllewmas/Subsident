@@ -96,33 +96,6 @@
             },
             {
                 "box": {
-                    "id": "obj-9",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 330.0, 210.0, 150.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 306.0, 112.0, 122.0, 20.0 ],
-                    "text": "(chords will update)"
-                }
-            },
-            {
-                "box": {
-                    "autofit": 1,
-                    "forceaspect": 1,
-                    "id": "obj-13",
-                    "maxclass": "fpic",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "jit_matrix" ],
-                    "patching_rect": [ 333.0, 81.0, 100.0, 173.0769230769231 ],
-                    "pic": "/Users/sam/Library/CloudStorage/Dropbox/Work/Projects/active/Subsident/Score/4x/chord1.png",
-                    "presentation": 1,
-                    "presentation_rect": [ 312.0, -15.0, 100.0, 173.0769230769231 ]
-                }
-            },
-            {
-                "box": {
                     "id": "obj-11",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -686,14 +659,6 @@
         "parameters": {
             "obj-17": [ "live.numbox", "live.numbox", 0 ],
             "obj-33": [ "live.button[1]", "live.button", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
