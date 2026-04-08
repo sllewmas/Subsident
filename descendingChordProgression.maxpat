@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 395.0, 281.0, 1034.0, 741.0 ],
+        "rect": [ 740.0, 391.0, 1034.0, 741.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -1693,7 +1693,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 129.2427181005478, 241.7475695014, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 24.573089604066837, 134.27301024421035, 95.0, 25.0 ],
+                    "presentation_rect": [ 71.35381927046583, 157.74715763452195, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1713,7 +1713,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.16393087522107336, 0.1977446103225744, 0.11926857610479658, 0.75 ],
+                    "textcolor": [ 0.7484582424789074, 0.35550059329895756, 0.23402032825197483, 0.75 ],
                     "varname": "live.numbox[2]"
                 }
             },
@@ -1731,7 +1731,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1404.0, 338.0, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.00822649933389, 126.83690853375298, 95.0, 25.0 ],
+                    "presentation_rect": [ 61.00329566534704, 159.07614697476686, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1751,7 +1751,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.32372972956336055, 0.8864289979285986, 0.3488402833797882, 0.75 ],
+                    "textcolor": [ 0.15887715558835225, 0.3983411107322799, 0.4446715825850083, 0.75 ],
                     "varname": "live.numbox[1]"
                 }
             },
@@ -1769,7 +1769,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 1345.0, 338.0, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.54504215131814, 123.09691050928821, 95.0, 25.0 ],
+                    "presentation_rect": [ 84.26132145276642, 101.26726670386708, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1789,7 +1789,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.4848904136647985, 0.8630801101979702, 0.34117069697637414, 0.75 ],
+                    "textcolor": [ 0.04772002861671021, 0.47828328291250755, 0.43154626610358693, 0.75 ],
                     "varname": "live.numbox"
                 }
             },
@@ -2227,7 +2227,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 988.0, 294.0, 510.0, 429.0 ],
+                        "rect": [ 988.0, 294.0, 727.0, 650.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -2347,8 +2347,8 @@
                                     "numinlets": 11,
                                     "numoutlets": 3,
                                     "outlettype": [ "signal", "signal", "" ],
-                                    "patching_rect": [ 105.33980506658554, 310.0, 378.0, 22.0 ],
-                                    "text": "live.adsr~ 8000. 0. 1. 20000 @attack_slope -0.5 @release_slope -0.5"
+                                    "patching_rect": [ 105.33980506658554, 310.0, 391.0, 22.0 ],
+                                    "text": "live.adsr~ 15000. 0. 1. 20000 @attack_slope -0.75 @release_slope -0.5"
                                 }
                             },
                             {
@@ -4128,7 +4128,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 478.7572764158249, 226.21358913183212, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.26180600604952, 151.37082206742755, 95.0, 25.0 ],
+                    "presentation_rect": [ 19.46077050868352, 122.38831657520345, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -4148,7 +4148,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.44763937871480536, 0.36614213375817983, 0.7415424289089143, 0.75 ],
+                    "textcolor": [ 0.6685577953698705, 0.7992150771039419, 0.6197674195730737, 0.75 ],
                     "varname": "live.numbox[4]"
                 }
             },
@@ -4166,7 +4166,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 453.5145583152771, 257.28154987096786, 75.0, 25.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 58.22808525944829, 135.7803368866404, 95.0, 25.0 ],
+                    "presentation_rect": [ 23.099729300853117, 100.65253899861779, 95.0, 25.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -4186,7 +4186,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "textcolor": [ 0.4794033134158776, 0.8535177122668065, 0.17535582397566235, 0.75 ],
+                    "textcolor": [ 0.5430787005220135, 0.3879684907973757, 0.4000551244654251, 0.75 ],
                     "varname": "live.numbox[3]"
                 }
             },
@@ -4455,7 +4455,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 291.0, 141.0, 1022.0, 1126.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -6688,14 +6687,6 @@
             "obj-83": [ "live.numbox", "live.numbox", 0 ],
             "obj-85": [ "live.numbox[1]", "live.numbox", 0 ],
             "obj-9": [ "live.numbox[5]", "live.numbox[5]", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
