@@ -8,7 +8,12 @@
       "startTime": 0,
       "dur": 38,
       "tremDepth": 0,
-      "instructions": ["begin", "listen", "to field recording"]
+      "instructions": ["begin", "listen", "to field recording"],
+      "adsr": [
+        2325.5648628158533, 2190.610354850636, 0.020897833601609052,
+        1412.5791222106923, 0, 0.0905572776985417, 0, -0.5955669298513936,
+        -0.6575757379669471, 0
+      ]
     },
     "1": {
       "letter": "B",
@@ -22,6 +27,11 @@
         "condensing",
         "Play sine synth",
         "very sparse, avoid overlapping"
+      ],
+      "adsr": [
+        2325.5648628158533, 2190.610354850636, 0.020897833601609052,
+        1412.5791222106923, 0, 0.0905572776985417, 0, -0.5955669298513936,
+        -0.6575757379669471, 0
       ]
     },
     "2": {
@@ -32,7 +42,12 @@
       "startTime": 75,
       "dur": 25,
       "tremDepth": 0,
-      "instructions": ["condensing", "Play sine synth", "somewhat sparse"]
+      "instructions": ["condensing", "Play sine synth", "somewhat sparse"],
+      "adsr": [
+        1474.2324603753368, 1465.5906414735734, 0.05379256995354454,
+        2765.608235439337, 0, 0.1037151722393159, 0, 0.25709762273462955,
+        -0.6575757379669471, 0
+      ]
     },
     "3": {
       "letter": "D",
@@ -42,8 +57,14 @@
       "startTime": 100,
       "dur": 38,
       "tremDepth": 0,
-      "instructions": ["condensing", "Play sine synth", "somewhat sparse"]
+      "instructions": ["condensing", "Play sine synth", "somewhat sparse"],
+      "adsr": [
+        1387.2535844501085, 1217.5767128942498, 0.06695046449431873,
+        2237.9967564149997, 0, 0.1892414867543482, 0, -0.4133937139937202,
+        -0.012006130438619728, 0
+      ]
     },
+
     "4": {
       "letter": "E",
       "sineChords": 0,
@@ -66,6 +87,11 @@
         "merging",
         "Play sine synth",
         "very sparse, avoid overlapping"
+      ],
+      "adsr": [
+        615.5760577942691, 23.498576621976902, 0.11958204265741554,
+        1412.5791222106764, 0, 0.19582043402473526, 0, 0.3597376940330805,
+        -0.7023614385604251, 0
       ]
     },
     "6": {
@@ -76,7 +102,12 @@
       "startTime": 188,
       "dur": 25,
       "tremDepth": 0,
-      "instructions": ["merging", "Play sine synth", "somewhat sparse)"]
+      "instructions": ["merging", "Play sine synth", "somewhat sparse)"],
+      "adsr": [
+        2586.33442228342, 447.85546667808217, 0.17879256809089936,
+        1412.5791222106764, 0, 0.18924148675434815, 0, -0.49321761328927016,
+        -0.09401154549724189, 0
+      ]
     },
     "7": {
       "letter": "H",
@@ -86,7 +117,12 @@
       "startTime": 213,
       "dur": 38,
       "tremDepth": 0,
-      "instructions": ["coalescing", "Play sine synth", "building density"]
+      "instructions": ["coalescing", "Play sine synth", "building density"],
+      "adsr": [
+        293.65931802575454, 567.1829463649216, 0.09326625357586704,
+        2237.996756414983, 0, 0.23529411764705785, 0, -0.2601542273106466,
+        -0.09401154549724189, 0.012448144381646487
+      ]
     },
     "8": {
       "letter": "I",
@@ -96,7 +132,12 @@
       "startTime": 250,
       "dur": 38,
       "tremDepth": 0,
-      "instructions": ["precipiating", "Play sine synth", "dense and full"]
+      "instructions": ["precipiating", "Play sine synth", "dense and full"],
+      "adsr": [
+        56.138744204045544, 379.53879233471326, 0.17221362082051225,
+        2237.996756414983, 0, 0.4063467466771225, 0, -0.47176162611822114,
+        -0.2662942125002874, 0.012448144381646487
+      ]
     },
     "9": {
       "letter": "J",
@@ -106,7 +147,12 @@
       "startTime": 288,
       "dur": 19,
       "tremDepth": 0,
-      "instructions": ["infiltrating", "Play sine synth", "suddenly sparse"]
+      "instructions": ["infiltrating", "Play sine synth", "suddenly sparse"],
+      "adsr": [
+        1224.8973435293085, 379.53879233471326, 0.17221362082051225,
+        2237.996756414983, 0, 0.3537151685140257, 0, 0.5333696962457931,
+        -0.2662942125002874, 0.012448144381646487
+      ]
     },
     "10": {
       "letter": "K",
@@ -116,7 +162,12 @@
       "startTime": 306,
       "dur": 38,
       "tremDepth": 0,
-      "instructions": ["infiltrating", "Play sine synth", "growing density"]
+      "instructions": ["infiltrating", "Play sine synth", "growing density"],
+      "adsr": [
+        2202.83599660145, 200.31516230221789, 0.20510835717244777,
+        2237.996756414983, 0, 0.28134674853976754, 0, 0.4855570903174733,
+        -0.2662942125002874, 0.012448144381646487
+      ]
     },
     "11": {
       "letter": "L",
@@ -130,6 +181,11 @@
         "plenishing",
         "Play sine synth & increase Timbre slider (0 to 100%)",
         "dense to sparse"
+      ],
+      "adsr": [
+        1149.2842637145702, 64.75208901005556, 0.09326625357586708,
+        2237.996756414983, 0, 0.31424148489170306, 0, -0.3366761139569691,
+        0.6807511768208134, 0.012448144381646487
       ]
     },
     "12": {
