@@ -6,6 +6,7 @@
       "dyad": 0,
       "fieldRecording": 1,
       "startTime": 0,
+      "dur": 38,
       "tremDepth": 0,
       "instructions": ["begin", "listen", "to field recording"]
     },
@@ -14,7 +15,8 @@
       "sineChords": 1,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 30,
+      "startTime": 38,
+      "dur": 38,
       "tremDepth": 0,
       "instructions": [
         "condensing",
@@ -27,7 +29,8 @@
       "sineChords": 2,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 60,
+      "startTime": 75,
+      "dur": 25,
       "tremDepth": 0,
       "instructions": ["condensing", "Play sine synth", "somewhat sparse"]
     },
@@ -36,7 +39,8 @@
       "sineChords": 3,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 80,
+      "startTime": 100,
+      "dur": 38,
       "tremDepth": 0,
       "instructions": ["condensing", "Play sine synth", "somewhat sparse"]
     },
@@ -45,7 +49,8 @@
       "sineChords": 0,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 110,
+      "startTime": 138,
+      "dur": 25,
       "tremDepth": 0,
       "instructions": ["still", "listen", "to field recording)"]
     },
@@ -54,7 +59,8 @@
       "sineChords": 4,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 130,
+      "startTime": 163,
+      "dur": 25,
       "tremDepth": 0,
       "instructions": [
         "merging",
@@ -67,7 +73,8 @@
       "sineChords": 5,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 150,
+      "startTime": 188,
+      "dur": 25,
       "tremDepth": 0,
       "instructions": ["merging", "Play sine synth", "somewhat sparse)"]
     },
@@ -76,7 +83,8 @@
       "sineChords": 6,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 170,
+      "startTime": 213,
+      "dur": 38,
       "tremDepth": 0,
       "instructions": ["coalescing"]
     },
@@ -85,7 +93,8 @@
       "sineChords": 7,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 200,
+      "startTime": 250,
+      "dur": 38,
       "tremDepth": 0,
       "instructions": ["precipiating"]
     },
@@ -94,7 +103,8 @@
       "sineChords": 8,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 230,
+      "startTime": 288,
+      "dur": 19,
       "tremDepth": 0,
       "instructions": ["infiltrating", "More sparse"]
     },
@@ -103,7 +113,8 @@
       "sineChords": 9,
       "dyad": 0,
       "fieldRecording": 0,
-      "startTime": 245,
+      "startTime": 306,
+      "dur": 38,
       "tremDepth": 0,
       "instructions": ["infiltrating", "Very sparse"]
     },
@@ -112,7 +123,8 @@
       "sineChords": 10,
       "dyad": 1,
       "fieldRecording": 0,
-      "startTime": 275,
+      "startTime": 344,
+      "dur": 38,
       "tremDepth": 0,
       "instructions": [
         "plenishing",
@@ -124,7 +136,8 @@
       "sineChords": 0,
       "dyad": 2,
       "fieldRecording": 0,
-      "startTime": 305,
+      "startTime": 381,
+      "dur": 13,
       "tremDepth": 0,
       "instructions": ["plenishing", "Decrease Timbre slider (100 to 0%)"]
     },
@@ -133,7 +146,8 @@
       "sineChords": 0,
       "dyad": 3,
       "fieldRecording": 0,
-      "startTime": 315,
+      "startTime": 394,
+      "dur": 6,
       "tremDepth": 10,
       "instructions": ["extracting", "Slight timbre swell to Q"]
     },
@@ -142,7 +156,8 @@
       "sineChords": 0,
       "dyad": 4,
       "fieldRecording": 0,
-      "startTime": 320,
+      "startTime": 400,
+      "dur": 1,
       "tremDepth": 10,
       "instructions": ["extracting", ""]
     },
@@ -151,7 +166,8 @@
       "sineChords": 0,
       "dyad": 5,
       "fieldRecording": 0,
-      "startTime": 321,
+      "startTime": 401,
+      "dur": 6,
       "tremDepth": 20,
       "instructions": ["extracting", ""]
     },
@@ -160,7 +176,8 @@
       "sineChords": 0,
       "dyad": 6,
       "fieldRecording": 0,
-      "startTime": 326,
+      "startTime": 408,
+      "dur": 19,
       "tremDepth": 30,
       "instructions": ["extracting", "Free timbre swells"]
     },
@@ -169,7 +186,8 @@
       "sineChords": 0,
       "dyad": 16,
       "fieldRecording": 0,
-      "startTime": 341,
+      "startTime": 426,
+      "dur": 13,
       "tremDepth": 40,
       "instructions": ["extracting", "Freeze and Timbre slider (0 to 100%)"]
     },
@@ -178,7 +196,8 @@
       "sineChords": 0,
       "dyad": 17,
       "fieldRecording": 0,
-      "startTime": 351,
+      "startTime": 439,
+      "dur": 19,
       "tremDepth": 50,
       "instructions": ["extracting", "Freeze/unfreeze, free timbre swells"]
     },
@@ -187,7 +206,8 @@
       "sineChords": 0,
       "dyad": 29,
       "fieldRecording": 0,
-      "startTime": 366,
+      "startTime": 458,
+      "dur": 19,
       "tremDepth": 60,
       "instructions": [
         "extracting",
@@ -199,7 +219,8 @@
       "sineChords": 0,
       "dyad": 47,
       "fieldRecording": 0,
-      "startTime": 381,
+      "startTime": 476,
+      "dur": 19,
       "tremDepth": 70,
       "instructions": ["extracting", "Timbre 0%, freeze/unfreeze"]
     },
@@ -208,7 +229,8 @@
       "sineChords": 0,
       "dyad": 71,
       "fieldRecording": 0,
-      "startTime": 396,
+      "startTime": 495,
+      "dur": 19,
       "tremDepth": 80,
       "instructions": ["extracting", "Freeze/unfreeze, free timbre swells"]
     },
@@ -217,7 +239,8 @@
       "sineChords": 0,
       "dyad": 92,
       "fieldRecording": 0,
-      "startTime": 411,
+      "startTime": 514,
+      "dur": 19,
       "tremDepth": 90,
       "instructions": ["evaporating", "Unfreeze, free timbre swells"]
     },
@@ -226,7 +249,8 @@
       "sineChords": 0,
       "dyad": 107,
       "fieldRecording": 0,
-      "startTime": 426,
+      "startTime": 533,
+      "dur": 19,
       "tremDepth": 100,
       "instructions": ["evaporating", "Timbre 0%, unfreeze"]
     },
@@ -235,7 +259,8 @@
       "sineChords": 0,
       "dyad": 116,
       "fieldRecording": 0,
-      "startTime": 441,
+      "startTime": 551,
+      "dur": 38,
       "tremDepth": 100,
       "instructions": ["subsiding", "Filter slider 100 to 0%"]
     }
