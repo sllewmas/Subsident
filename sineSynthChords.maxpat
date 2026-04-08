@@ -14,6 +14,18 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "",
+                    "id": "obj-19",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 756.0, 265.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-22",
                     "maxclass": "live.comment",
                     "numinlets": 1,
@@ -519,6 +531,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-182", 0 ],
+                    "source": [ "obj-19", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-18", 0 ],
                     "source": [ "obj-20", 0 ]
                 }
@@ -668,6 +686,14 @@
         "parameters": {
             "obj-17": [ "live.numbox", "live.numbox", 0 ],
             "obj-33": [ "live.button[1]", "live.button", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
