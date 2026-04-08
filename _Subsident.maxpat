@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 232.0, 155.0, 1151.0, 714.0 ],
+        "rect": [ 232.0, 155.0, 1151.0, 742.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -44,8 +44,9 @@
                     "numoutlets": 0,
                     "patching_rect": [ 357.66666999459267, 590.0, 90.0, 79.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 237.0, 92.0, 256.0, 25.0 ],
-                    "text": "38 seconds until letter B"
+                    "presentation_rect": [ 220.0, 92.0, 290.0, 25.0 ],
+                    "text": "38 seconds until letter B",
+                    "textjustification": 1
                 }
             },
             {
@@ -195,7 +196,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 59.0, 106.0, 1000.0, 780.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -2507,7 +2507,7 @@
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 253.0, 1282.0, 421.3592175245285, 153.39805614948273 ],
                     "presentation": 1,
-                    "presentation_rect": [ 259.0, 192.0, 418.0, 130.0 ],
+                    "presentation_rect": [ 324.5, 192.0, 312.0, 130.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -2542,7 +2542,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 431.0, 123.0, 319.3333428502083, 40.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 23.0, 71.16666859388351, 214.0, 40.0 ],
+                    "presentation_rect": [ 23.0, 71.0, 234.0, 40.0 ],
                     "text": "Sam Wells"
                 }
             },
@@ -2577,7 +2577,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 638.0, 107.0, 113.33333671092987, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 23.0, 48.50000125169754, 175.789479970932, 21.0 ],
+                    "presentation_rect": [ 23.0, 49.0, 176.0, 21.0 ],
                     "text": "version 1.1.0",
                     "textjustification": 2
                 }
@@ -2691,7 +2691,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 431.0, 80.0, 223.33333998918533, 47.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 23.0, 6.5, 214.0, 47.0 ],
+                    "presentation_rect": [ 23.0, 7.0, 234.0, 47.0 ],
                     "text": "Subsident"
                 }
             },
@@ -3251,14 +3251,6 @@
             "obj-7::obj-17": [ "live.numbox[6]", "live.numbox", 0 ],
             "obj-7::obj-33": [ "live.button[2]", "live.button", 0 ],
             "obj-9": [ "live.gain~", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-101::obj-166": {
                     "parameter_longname": "live.text[5]"
