@@ -1,29 +1,204 @@
 {
   "rehearsalLetter": {
-    "0": { "letter": "A", "sineChords": 0, "dyad": 0, "fieldRecording": 1 },
-    "1": { "letter": "B", "sineChords": 1, "dyad": 0, "fieldRecording": 0 },
-    "2": { "letter": "C", "sineChords": 2, "dyad": 0, "fieldRecording": 0 },
-    "3": { "letter": "D", "sineChords": 3, "dyad": 0, "fieldRecording": 0 },
-    "4": { "letter": "E", "sineChords": 0, "dyad": 0, "fieldRecording": 0 },
-    "5": { "letter": "F", "sineChords": 4, "dyad": 0, "fieldRecording": 0 },
-    "6": { "letter": "G", "sineChords": 5, "dyad": 0, "fieldRecording": 0 },
-    "7": { "letter": "H", "sineChords": 6, "dyad": 0, "fieldRecording": 0 },
-    "8": { "letter": "I", "sineChords": 7, "dyad": 0, "fieldRecording": 0 },
-    "9": { "letter": "J", "sineChords": 8, "dyad": 0, "fieldRecording": 0 },
-    "10": { "letter": "K", "sineChords": 9, "dyad": 0, "fieldRecording": 0 },
-    "11": { "letter": "L", "sineChords": 10, "dyad": 1, "fieldRecording": 0 },
-    "12": { "letter": "M", "sineChords": 0, "dyad": 2, "fieldRecording": 0 },
-    "13": { "letter": "N", "sineChords": 0, "dyad": 3, "fieldRecording": 0 },
-    "14": { "letter": "O", "sineChords": 0, "dyad": 4, "fieldRecording": 0 },
-    "15": { "letter": "P", "sineChords": 0, "dyad": 5, "fieldRecording": 0 },
-    "16": { "letter": "Q", "sineChords": 0, "dyad": 6, "fieldRecording": 0 },
-    "17": { "letter": "R", "sineChords": 0, "dyad": 16, "fieldRecording": 0 },
-    "18": { "letter": "S", "sineChords": 0, "dyad": 17, "fieldRecording": 0 },
-    "19": { "letter": "T", "sineChords": 0, "dyad": 29, "fieldRecording": 0 },
-    "20": { "letter": "U", "sineChords": 0, "dyad": 47, "fieldRecording": 0 },
-    "21": { "letter": "V", "sineChords": 0, "dyad": 71, "fieldRecording": 0 },
-    "22": { "letter": "W", "sineChords": 0, "dyad": 92, "fieldRecording": 0 },
-    "23": { "letter": "X", "sineChords": 0, "dyad": 107, "fieldRecording": 0 },
-    "24": { "letter": "Y", "sineChords": 0, "dyad": 116, "fieldRecording": 0 }
+    "0": {
+      "letter": "A",
+      "sineChords": 0,
+      "dyad": 0,
+      "fieldRecording": 1,
+      "startTime": 0,
+      "instructions": "Begin (listen to field recording)"
+    },
+    "1": {
+      "letter": "B",
+      "sineChords": 1,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 30,
+      "instructions": "Play sine synth very sparse avoid overlapping"
+    },
+    "2": {
+      "letter": "C",
+      "sineChords": 2,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 60,
+      "instructions": "Play sine synth (somewhat sparse)"
+    },
+    "3": {
+      "letter": "D",
+      "sineChords": 3,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 80,
+      "instructions": "Play sine synth (somewhat sparse)"
+    },
+    "4": {
+      "letter": "E",
+      "sineChords": 0,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 110,
+      "instructions": "Stop (listen to field recording)"
+    },
+    "5": {
+      "letter": "F",
+      "sineChords": 4,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 130,
+      "instructions": "Play sine synth very sparse, avoid overlapping"
+    },
+    "6": {
+      "letter": "G",
+      "sineChords": 5,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 150,
+      "instructions": "Play sine synth (somewhat sparse)"
+    },
+    "7": {
+      "letter": "H",
+      "sineChords": 6,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 170,
+      "instructions": "Growing in density"
+    },
+    "8": {
+      "letter": "I",
+      "sineChords": 7,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 200,
+      "instructions": "Full"
+    },
+    "9": {
+      "letter": "J",
+      "sineChords": 8,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 230,
+      "instructions": "More sparse"
+    },
+    "10": {
+      "letter": "K",
+      "sineChords": 9,
+      "dyad": 0,
+      "fieldRecording": 0,
+      "startTime": 245,
+      "instructions": "Very sparse"
+    },
+    "11": {
+      "letter": "L",
+      "sineChords": 10,
+      "dyad": 1,
+      "fieldRecording": 0,
+      "startTime": 275,
+      "instructions": "Sine synth sparse and increase Timbre slider (0 to 100%)"
+    },
+    "12": {
+      "letter": "M",
+      "sineChords": 0,
+      "dyad": 2,
+      "fieldRecording": 0,
+      "startTime": 305,
+      "instructions": "Decrease Timbre slider (100 to 0%)"
+    },
+    "13": {
+      "letter": "N",
+      "sineChords": 0,
+      "dyad": 3,
+      "fieldRecording": 0,
+      "startTime": 315,
+      "instructions": "Slight timbre swell to Q"
+    },
+    "14": {
+      "letter": "O",
+      "sineChords": 0,
+      "dyad": 4,
+      "fieldRecording": 0,
+      "startTime": 320,
+      "instructions": ""
+    },
+    "15": {
+      "letter": "P",
+      "sineChords": 0,
+      "dyad": 5,
+      "fieldRecording": 0,
+      "startTime": 321,
+      "instructions": ""
+    },
+    "16": {
+      "letter": "Q",
+      "sineChords": 0,
+      "dyad": 6,
+      "fieldRecording": 0,
+      "startTime": 326,
+      "instructions": "Free timbre swells"
+    },
+    "17": {
+      "letter": "R",
+      "sineChords": 0,
+      "dyad": 16,
+      "fieldRecording": 0,
+      "startTime": 341,
+      "instructions": "Freeze and Timbre slider (0 to 100%)"
+    },
+    "18": {
+      "letter": "S",
+      "sineChords": 0,
+      "dyad": 17,
+      "fieldRecording": 0,
+      "startTime": 351,
+      "instructions": "Freeze/unfreeze, free timbre swells"
+    },
+    "19": {
+      "letter": "T",
+      "sineChords": 0,
+      "dyad": 29,
+      "fieldRecording": 0,
+      "startTime": 366,
+      "instructions": "Unfreeze increase Timbre slider (0 to 100%)"
+    },
+    "20": {
+      "letter": "U",
+      "sineChords": 0,
+      "dyad": 47,
+      "fieldRecording": 0,
+      "startTime": 381,
+      "instructions": "Timbre 0%, freeze/unfreeze"
+    },
+    "21": {
+      "letter": "V",
+      "sineChords": 0,
+      "dyad": 71,
+      "fieldRecording": 0,
+      "startTime": 396,
+      "instructions": "Freeze/unfreeze, free timbre swells"
+    },
+    "22": {
+      "letter": "W",
+      "sineChords": 0,
+      "dyad": 92,
+      "fieldRecording": 0,
+      "startTime": 411,
+      "instructions": "Unfreeze, free timbre swells"
+    },
+    "23": {
+      "letter": "X",
+      "sineChords": 0,
+      "dyad": 107,
+      "fieldRecording": 0,
+      "startTime": 426,
+      "instructions": "Timbre 0%, unfreeze"
+    },
+    "24": {
+      "letter": "Y",
+      "sineChords": 0,
+      "dyad": 116,
+      "fieldRecording": 0,
+      "startTime": 441,
+      "instructions": "Filter slider 100 to 0%"
+    }
   }
 }
