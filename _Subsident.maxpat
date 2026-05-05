@@ -45,7 +45,7 @@
                     "patching_rect": [ 357.66666999459267, 590.0, 90.0, 79.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 220.0, 92.0, 290.0, 25.0 ],
-                    "text": "38 seconds until letter B",
+                    "text": "00 seconds until letter M",
                     "textjustification": 1
                 }
             },
@@ -1833,6 +1833,7 @@
                     "patching_rect": [ 160.0, 823.0, 236.0, 29.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 496.7105311155319, 90.0, 527.0, 29.0 ],
+                    "text": "decrease 100 to 0%",
                     "textjustification": 1
                 }
             },
@@ -1848,7 +1849,7 @@
                     "patching_rect": [ 118.0, 786.0, 307.0, 34.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 496.5, 56.0, 527.4210622310638, 34.0 ],
-                    "text": "(instructions will display here)",
+                    "text": "Timbre slider",
                     "textjustification": 1
                 }
             },
@@ -1864,6 +1865,7 @@
                     "patching_rect": [ 16.0, 738.0, 634.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 495.9605311155319, 6.0, 528.5, 48.0 ],
+                    "text": "plenishing",
                     "textjustification": 1
                 }
             },
@@ -2255,7 +2257,7 @@
                     "patching_rect": [ 276.0, 634.0, 370.0, 88.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 250.0, 18.5, 230.0, 88.0 ],
-                    "text": "00:00"
+                    "text": "07:37"
                 }
             },
             {
@@ -2578,7 +2580,7 @@
                     "patching_rect": [ 638.0, 107.0, 113.33333671092987, 21.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 23.0, 49.0, 176.0, 21.0 ],
-                    "text": "version 1.1.0",
+                    "text": "version 1.1.1",
                     "textjustification": 2
                 }
             },
@@ -3251,6 +3253,14 @@
             "obj-7::obj-17": [ "live.numbox[6]", "live.numbox", 0 ],
             "obj-7::obj-33": [ "live.button[2]", "live.button", 0 ],
             "obj-9": [ "live.gain~", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-101::obj-166": {
                     "parameter_longname": "live.text[5]"

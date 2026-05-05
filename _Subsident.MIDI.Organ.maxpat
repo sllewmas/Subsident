@@ -5702,7 +5702,7 @@
                     "patching_rect": [ 638.0, 107.0, 113.33333671092987, 21.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 23.0, 49.0, 176.0, 21.0 ],
-                    "text": "version 1.1.0",
+                    "text": "version 1.1.1",
                     "textjustification": 2
                 }
             },
