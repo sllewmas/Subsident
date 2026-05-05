@@ -175,7 +175,7 @@
       "dyad": 1,
       "fieldRecording": 0,
       "startTime": 344,
-      "dur": 38,
+      "dur": 114,
       "tremDepth": 0,
       "instructions": [
         "plenishing",
@@ -193,7 +193,7 @@
       "sineChords": 0,
       "dyad": 2,
       "fieldRecording": 0,
-      "startTime": 381,
+      "startTime": 457,
       "dur": 13,
       "tremDepth": 0,
       "instructions": ["plenishing", "Timbre slider", "decrease 100 to 0%"]
@@ -203,7 +203,7 @@
       "sineChords": 0,
       "dyad": 3,
       "fieldRecording": 0,
-      "startTime": 394,
+      "startTime": 470,
       "dur": 6,
       "tremDepth": 10,
       "instructions": ["extracting", "Timbre slider", "Slight swell to O"]
@@ -213,37 +213,37 @@
       "sineChords": 0,
       "dyad": 4,
       "fieldRecording": 0,
-      "startTime": 400,
+      "startTime": 476,
       "dur": 1,
       "tremDepth": 10,
-      "instructions": ["extracting", "Tremelo", "Begin to flucuate "]
+      "instructions": ["extracting", "tremolo", "Begin to flucuate "]
     },
     "15": {
       "letter": "P",
       "sineChords": 0,
       "dyad": 5,
       "fieldRecording": 0,
-      "startTime": 401,
+      "startTime": 477,
       "dur": 6,
       "tremDepth": 20,
-      "instructions": ["extracting", "Tremelo", "increasing flucuations"]
+      "instructions": ["extracting", "tremolo", "increasing flucuations"]
     },
     "16": {
       "letter": "Q",
       "sineChords": 0,
       "dyad": 6,
       "fieldRecording": 0,
-      "startTime": 408,
+      "startTime": 484,
       "dur": 19,
       "tremDepth": 30,
-      "instructions": ["extracting", "Free timbre swells", "flucuating tremelo"]
+      "instructions": ["extracting", "Free timbre swells", "flucuating tremolo"]
     },
     "17": {
       "letter": "R",
       "sineChords": 0,
       "dyad": 16,
       "fieldRecording": 0,
-      "startTime": 426,
+      "startTime": 502,
       "dur": 13,
       "tremDepth": 40,
       "instructions": ["extracting", "Freeze and Timbre slider (0 to 100%)"]
@@ -253,13 +253,13 @@
       "sineChords": 0,
       "dyad": 17,
       "fieldRecording": 0,
-      "startTime": 439,
+      "startTime": 515,
       "dur": 19,
       "tremDepth": 50,
       "instructions": [
         "extracting",
         "ad lib Freeze & Timbre",
-        "flucuating tremelo"
+        "flucuating tremolo"
       ]
     },
     "19": {
@@ -267,7 +267,7 @@
       "sineChords": 0,
       "dyad": 29,
       "fieldRecording": 0,
-      "startTime": 458,
+      "startTime": 534,
       "dur": 19,
       "tremDepth": 60,
       "instructions": ["extracting", "Unfreeze & Timbre slider", "0 to 100%"]
@@ -277,7 +277,7 @@
       "sineChords": 0,
       "dyad": 47,
       "fieldRecording": 0,
-      "startTime": 476,
+      "startTime": 552,
       "dur": 19,
       "tremDepth": 70,
       "instructions": ["extracting", "Timbre 0%, freeze/unfreeze"]
@@ -287,13 +287,13 @@
       "sineChords": 0,
       "dyad": 71,
       "fieldRecording": 0,
-      "startTime": 495,
+      "startTime": 571,
       "dur": 19,
       "tremDepth": 80,
       "instructions": [
         "extracting",
         "ad lib freeze and timbre",
-        "choppier tremelo"
+        "choppier tremolo"
       ]
     },
     "22": {
@@ -301,13 +301,13 @@
       "sineChords": 0,
       "dyad": 92,
       "fieldRecording": 0,
-      "startTime": 514,
+      "startTime": 590,
       "dur": 19,
       "tremDepth": 90,
       "instructions": [
         "evaporating",
         "Unfreeze & free timbre swells",
-        "choppy tremelo"
+        "choppy tremolo"
       ]
     },
     "23": {
@@ -315,20 +315,20 @@
       "sineChords": 0,
       "dyad": 107,
       "fieldRecording": 0,
-      "startTime": 533,
+      "startTime": 609,
       "dur": 19,
       "tremDepth": 100,
-      "instructions": ["evaporating", "Timbre 0%, unfreeze", "choppy tremelo"]
+      "instructions": ["evaporating", "Timbre 0%, unfreeze", "choppy tremolo"]
     },
     "24": {
       "letter": "Y",
       "sineChords": 0,
       "dyad": 116,
       "fieldRecording": 0,
-      "startTime": 551,
+      "startTime": 627,
       "dur": 38,
       "tremDepth": 100,
-      "instructions": ["subsiding", "Filter slider 100 to 0%", "choppy tremelo"]
+      "instructions": ["subsiding", "Filter slider 100 to 0%", "choppy tremolo"]
     }
   }
 }
